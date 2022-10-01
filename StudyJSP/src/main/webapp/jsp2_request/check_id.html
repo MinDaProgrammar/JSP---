@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+	function idCheck(){
+// 		alert(document.fr.id.value);
+		
+		if(document.fr.id.value=="admin"){
+			document.getElementById("checkIdResult").innerHTML = "이미 존재하는 아이디!";
+			document.getElementById('checkIdResult').style.color = "#FF9999";
+		}else{
+			document.getElementById('checkIdResult').innerHTML="사용 가능한 아이디!" +
+			"<input type='button' value='아이디 사용' onclick='useId()'>";
+			document.getElementById('checkIdResult').style.color="#55DD55" 
+		}
+	}
+	
+	function useId(){
+		window.opener.document.fr.id.value=document.fr.id.value;
+		window.close();
+	}
+	
+</script>
+</head>
+<body>
+	<h1>ID 중복 체크</h1>
+	<form action="" name="fr">
+		<input type="text" name="id">
+		<input type="button" value="중복확인" onclick="idCheck()">
+		<div id="checkIdResult">
+		
+		</div>
+	</form>
+</body>
+</html>

@@ -22,6 +22,7 @@
 		<tr>
 			<th>성별</th>
 			<td>
+			Hello
 			<input type="radio" name="gender" value="남">남
 			<input type="radio" name="gender" value="여">여
 			</td>

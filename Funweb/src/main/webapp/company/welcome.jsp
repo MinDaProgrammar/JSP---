@@ -17,7 +17,7 @@
 		<!-- 헤더 들어가는곳 -->
 		<jsp:include page="../inc/top.jsp"></jsp:include>
 		<!-- 헤더 들어가는곳 -->
-
+ 
 		<!-- 본문들어가는 곳 -->
 		<!-- 본문 메인 이미지 -->
 		<div id="sub_img"></div>

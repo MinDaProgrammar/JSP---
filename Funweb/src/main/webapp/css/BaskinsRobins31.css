@@ -1,0 +1,26 @@
+.left{
+	float:left;
+	border: 1px solid red;
+}
+
+.right{
+	float:right;
+	border: 1px solid blue;
+}
+
+.center{
+	clear: both;
+	padding-left: 40%;
+	position: fixed;
+	bottom: 3px;
+}
+
+h3{
+	text-align: center;
+}
+
+button{
+	font-size:2em;
+	padding: 10px;
+	margin: 3px;
+}

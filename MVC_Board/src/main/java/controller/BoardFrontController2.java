@@ -27,7 +27,6 @@ public class BoardFrontController2 extends HttpServlet {
 		request.setCharacterEncoding("UTF-8");
 		String command = request.getServletPath();
 		System.out.println("command: "+command);
-		
 		ActionForward forward = null;
 		if(command.equals("/BoardWriteForm.do")) {
 			System.out.println("글쓰기 폼2!");
